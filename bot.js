@@ -58,7 +58,7 @@ if (message.content.toLowerCase().startsWith(prefix + `new`)) {
         message.channel.send(`:white_check_mark: Your ticket has been created, #${c.name}.`);
         const embed = new Discord.RichEmbed()
         .setColor(0xCF40FA)
-        .addField(`Hey ${message.author.username}!`, `شكرا لك بفتح تذكره الانتظار سبورت سيتم رد عليك قرب وقت  `)
+        .addField(`Hey ${message.author.username}!`, `شكرا لك بفتح تذكره الانتظار سبورت سيتم رد عليك اقرب وقت  او اسراع وقت ممكن  `)
         .setTimestamp();
         c.send({ embed: embed });
     }).catch(console.error);
